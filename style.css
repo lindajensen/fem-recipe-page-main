@@ -50,6 +50,7 @@ img {
 .raspberry {
     color: var(--darkraspberry);
     font-weight: 700;
+    padding-left: 240px;
 }
 
 .bold {
@@ -58,11 +59,11 @@ img {
 
 li::marker {
     color: var(--darkraspberry);
+    font-weight: 700;
 }
 
 .container {
     background-color: var(--eggshell);
-    /* height: 140vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +72,7 @@ li::marker {
 
 .card {
     background-color: var(--white);
-    width: 45%;
+    width: 44%;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -106,4 +107,24 @@ li::marker {
 
 .nutrition p {
     margin-bottom: 20px;
+}
+
+table tr td {
+    border-bottom: 2px solid var(--lightgrey);
+    padding-bottom: 5px;
+}
+
+table td {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+    color: var(--lightgrey);
+}
+
+.nutri {
+    margin-left: 30px;
 }
