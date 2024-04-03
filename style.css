@@ -22,11 +22,14 @@ body {
 
 img {
     width: 100%;
+    margin-top: 1.875rem;
+    border-radius: 8px;
 }
 
 .raspberry {
     color: var(--darkraspberry);
     font-weight: 700;
+    padding-left: 12.5rem;
 }
 
 .bold {
@@ -35,8 +38,8 @@ img {
 
 h1 {
     font-family: "Young Serif", serif;
-    padding: 20px 0;
-    font-size: 30px;
+    padding: 1.25rem 0;
+    font-size: 1.875rem;
     color: var(--darkcharcoal);
     line-height: 1.2;
 }
@@ -44,8 +47,14 @@ h1 {
 h2 {
     font-family: "Young Serif", serif;
     color: var(--nutmeg);
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+
+h3 {
+    color: var(--darkraspberry);
+    margin-bottom: 0.625rem;
 }
 
 p,
@@ -61,44 +70,44 @@ li::marker {
 .card {
     margin: 0 auto;
     background-color: var(--white);
-    padding: 0 30px;
+    padding: 0 1.875rem;
 }
 
 .main p {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .preparation-card {
     background-color: var(--rosewhite);
-    padding: 20px;
-    margin: 20px 0;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
     border-radius: 8px;
 }
 
 .preparation-card h3 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .preparation-card ul {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .preparation-card ul li {
     line-height: 2;
-    padding-left: 25px;
+    padding-left: 1.56;
 }
 
 .ingredients {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .instructions ol {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .ingredients ul,
 .instructions ol {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .ingredients ul li,
@@ -107,16 +116,16 @@ li::marker {
 }
 
 .nutrition {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .nutrition p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 hr {
     border-color: var(--lightgrey);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 table {
@@ -125,125 +134,32 @@ table {
 
 table tr td {
     border-bottom: 2px solid var(--lightgrey);
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 table td {
-    padding-left: 30px;
-    padding-right: 80px;
+    padding-left: 1.875rem;
+    padding-right: 5rem;
 }
 
-*/
-/* p,
-ol li {
-    line-height: 1.6;
+@media (min-width: 530px) {
+    img {
+        margin-top: 1.25rem;
+    }
+
+    .card {
+        width: 60%;
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+        border-radius: 8px;
+    }
+
+    .container {
+        background-color: var(--eggshell);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
 }
-
-h1 {
-    font-family: "Young Serif", serif;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-h2 {
-    font-family: "Young Serif", serif;
-    color: var(--nutmeg);
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-h3 {
-    color: var(--darkraspberry);
-    margin-bottom: 10px;
-}
-
-
-img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.raspberry {
-    color: var(--darkraspberry);
-    font-weight: 700;
-    padding-left: 200px;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-li::marker {
-    color: var(--darkraspberry);
-    font-weight: 700;
-}
-
-.container {
-    background-color: var(--eggshell);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 0;
-}
-
-.card {
-    background-color: var(--white);
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    border-radius: 10px;
-}
-
-.preparation-card {
-    background-color: var(--rosewhite);
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-}
-
-.preparation-card ul {
-    margin-left: 16px;
-}
-
-.preparation-card ul li {
-    line-height: 2;
-    padding-left: 25px;
-}
-
-.ingredients ul,
-.instructions ol {
-    margin-left: 20px;
-}
-
-.ingredients ul li,
-.instructions ol li {
-    line-height: 2;
-}
-
-.nutrition {
-    padding-bottom: 15px;
-}
-
-.nutrition p {
-    margin-bottom: 20px;
-}
-
-hr {
-    border-color: var(--lightgrey);
-    margin-top: 20px;
-}
-
-table {
-    width: 100%;
-}
-
-table tr td {
-    border-bottom: 2px solid var(--lightgrey);
-    padding: 10px;
-}
-
-table td {
-    padding-left: 30px;
-    padding-right: 80px;
-} */
