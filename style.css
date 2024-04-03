@@ -153,7 +153,7 @@ table td {
     .card {
         width: 60%;
         max-width: 750px;
-        margin: 30px auto;
+        margin: 4rem auto;
         padding: 0.625rem 1.7rem;
         border-radius: 20px;
     }
